@@ -1,0 +1,30 @@
+.second-hero-section {
+    height: 100vh; /* Make it take the full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #101010; /* or any background you want */
+    color: white;
+    text-align: center;
+  }
+  
+  .second-hero-section h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+  
+  .second-hero-section p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .second-hero-section button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  

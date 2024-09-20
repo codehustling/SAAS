@@ -1,0 +1,86 @@
+.third-hero-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    background-color: black;
+  }
+  
+  /* Hero Title */
+  .third-hero-title {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  /* Grid Layout */
+  .third-hero-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Dynamic grid columns */
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px; /* Limit grid width */
+    margin: 0 auto;
+  }
+  
+  /* Grid Item Style */
+  .third-hero-grid-item {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease; /* Hover transition effect */
+    cursor: pointer;
+  }
+  
+  /* Media Styling: Videos & Images */
+  .third-hero-grid-item img, 
+  .third-hero-grid-item video {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  /* Hover effect for grid item */
+  .third-hero-grid-item:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+  }
+  
+  /* Caption Styling */
+  .third-hero-item-caption {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-size: 1rem;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Smooth transition for opacity */
+  }
+  
+  /* Show caption on hover */
+  .third-hero-grid-item:hover .third-hero-item-caption {
+    opacity: 1; /* Caption appears on hover */
+  }
+  
+  /* Responsive Design for smaller screens */
+  @media (max-width: 768px) {
+    .third-hero-title {
+      font-size: 2rem; /* Adjust title size for mobile */
+    }
+  
+    .third-hero-grid-item img, 
+    .third-hero-grid-item video {
+      height: auto; /* Let media adapt for smaller screens */
+    }
+  
+    .third-hero-grid {
+      gap: 15px; /* Reduce gap between grid items for smaller screens */
+    }
+  }
+  

@@ -1,0 +1,68 @@
+/* Main container for the fourth hero */
+.fourth-hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+  }
+  
+  /* Container to align video and text */
+  .fourth-hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  /* Video styling */
+  .fourth-hero-video {
+    flex: 1;
+    max-width: 50%;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .fourth-hero-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Text styling */
+  .fourth-hero-text {
+    flex: 1;
+    color: white;
+    padding: 20px;
+  }
+  
+  .fourth-hero-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .fourth-hero-text .italic-word {
+    font-style: italic;
+    color: #ffdd57;
+  }
+  
+  .fourth-hero-text p {
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
+  
+  /* SPEED vertical text */
+  .speed-text {
+    position: absolute;
+    left: 20px;
+    font-size: 4rem;
+    color: rgba(255, 255, 255, 0.1);
+    font-weight: bold;
+    transform: rotate(-90deg);
+    top: 50%;
+    transform: translateY(-50%) rotate(-90deg);
+  }
+  

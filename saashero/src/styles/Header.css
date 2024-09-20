@@ -1,0 +1,11 @@
+#spline {
+    position: relative; /* Make sure it's positioned properly */
+    z-index: 2; /* Ensure this is higher than the Asteroid Canvas */
+  }
+  
+  /* Give the Asteroid Canvas a lower z-index */
+  .asteroid-canvas {
+    position: relative; /* Or absolute, depending on your layout */
+    z-index: 1;
+  }
+  

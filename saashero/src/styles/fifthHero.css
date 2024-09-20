@@ -1,0 +1,71 @@
+.fifth-hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 50px 0;
+    background-color: black;
+    color: white;
+  }
+  
+  .motion-text {
+    font-size: 6rem;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.1);
+    writing-mode: vertical-rl;
+    letter-spacing: 10px;
+  }
+  
+  .fifth-hero-grid {
+    display: flex;
+    gap: 20px;
+    width: 80%; /* Adjust width of the grid */
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .fifth-hero-grid-item {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .fifth-hero-grid-item video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .fifth-hero-item-caption {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .fifth-hero-text {
+    width: 80%; /* Set the width of the text */
+    text-align: left;
+  }
+  
+  .fifth-hero-text h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .fifth-hero-text .action-text {
+    color: yellow;
+  }
+  
+  .fifth-hero-text p {
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
+  

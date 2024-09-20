@@ -1,0 +1,57 @@
+.dashboard-content {
+    display: flex;
+    background-color: #1c1c1c;  /* Dark background for the dashboard */
+    height: 100vh;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 40px;
+    background-color: #2b2b2b;  /* Darker content area */
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    color: #f0f0f0;  /* Light text color */
+  }
+  
+  .sidebar {
+    width: 250px;
+    padding: 20px;
+    background-color: #333333;  /* Darker sidebar background */
+    color: #f0f0f0;
+    box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 10px 0;
+    font-size: 18px;
+    color: #f0f0f0;  /* Light text in the sidebar */
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #3f51b5;  /* Dark blue header background */
+    color: white;
+  }
+  
+  .header-buttons button {
+    background-color: #5c6bc0;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .header-buttons button:hover {
+    background-color: #7986cb;  /* Slightly lighter on hover */
+    color: white;
+  }
+  
